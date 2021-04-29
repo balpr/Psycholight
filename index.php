@@ -14,10 +14,10 @@
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="" style="font-family: Rubik">Psycolight</a>
+        <a class="pure-menu-heading" href="" style="font-family: Rubik">Psycholight</a>
 
         <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Blog</a></li>
+            <li class="pure-menu-item"><a href="blog.html" class="pure-menu-link">Blog</a></li>
             <li class="pure-menu-item"><a href="#support" class="pure-menu-link">Support</a></li>
         </ul>
     </div>
@@ -32,7 +32,7 @@
                     Get Better Mental Health.
                 </p>
                 <p>
-                    <a href="#" class="pure-button" style="background: #333333">Get Started</a>
+                    <a href="blog.html" class="pure-button" style="background: #333333">Get Started</a>
                 </p>
             </div>
 
