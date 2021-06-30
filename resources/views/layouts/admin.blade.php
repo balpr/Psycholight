@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
     <title>Admin Psycholight | @yield('title')</title>
-    <link rel="stylesheet" href="{{asset('css/pure/pure-min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/layouts/side-menu/styles.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/pure/pure-min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/layouts/side-menu/styles.css')}}">
     <style>
         body {
             margin: 0;
@@ -37,11 +37,11 @@
                 <a class="pure-menu-heading" href="">Admin</a>
 
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item {{Request::is('admin/profile') ? 'pure-menu-selected' : ''}}"><a href="{{URL::to('admin/profile')}}" class="pure-menu-link">Profile</a></li>
-                    <li class="pure-menu-item {{Request::is('admin') ? 'pure-menu-selected' : ''}}"><a href="{{URL::to('admin')}}" class="pure-menu-link">Dashboard</a></li>
-                    <li class="pure-menu-item {{Request::is('admin/authors') ? 'pure-menu-selected' : ''}}"><a href="{{URL::to('admin/authors')}}" class="pure-menu-link">Authors</a></li>
-                    <li class="pure-menu-item {{Request::is('admin/blogs') ? 'pure-menu-selected' : ''}}"><a href="{{URL::to('admin/blogs')}}" class="pure-menu-link">Blogs</a></li>
-                    <li class="pure-menu-item {{Request::is('admin/categories') ? 'pure-menu-selected' : ''}}"><a href="{{URL::to('admin/categories')}}" class="pure-menu-link">Categories</a></li>
+                    <li class="pure-menu-item {{Request::is('admin/profile') ? 'pure-menu-selected' : ''}}"><a href="{{route('admin.profile')}}" class="pure-menu-link">Profile</a></li>
+                    <li class="pure-menu-item {{Request::is('admin') ? 'pure-menu-selected' : ''}}"><a href="{{route('admin.index')}}" class="pure-menu-link">Dashboard</a></li>
+                    <li class="pure-menu-item {{Request::is('admin/authors') ? 'pure-menu-selected' : ''}}"><a href="{{route('authors.index')}}" class="pure-menu-link">Authors</a></li>
+                    <li class="pure-menu-item {{Request::is('admin/blogs') ? 'pure-menu-selected' : ''}}"><a href="{{route('blogs.index')}}" class="pure-menu-link">Blogs</a></li>
+                    <li class="pure-menu-item {{Request::is('admin/categories') ? 'pure-menu-selected' : ''}}"><a href="{{route('categories.index')}}" class="pure-menu-link">Categories</a></li>
                 </ul>
             </div>
         </div>
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <script src="{{asset('js/ui.js')}}"></script>
+    <script src="{{secure_asset('js/ui.js')}}"></script>
     @stack('script')
 
 </body>

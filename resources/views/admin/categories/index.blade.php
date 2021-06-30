@@ -40,13 +40,13 @@
 </div>
 @endsection
 @push('css')
-<link rel="stylesheet" href="{{asset('css/app-light.css')}}">
-<link rel="stylesheet" href="{{asset('css/dataTables.bootstrap4.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/app-light.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/dataTables.bootstrap4.css')}}">
 @endpush
 @push('script')
-<script src="{{asset('js/jquery.min.js')}}"></script>
-<script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.dataTables.min.js')}}"></script>
+<script src="{{secure_asset('js/dataTables.bootstrap4.min.js')}}"></script>
 <script type="text/javascript">
     $('#table').DataTable({
         autoWidth: true,

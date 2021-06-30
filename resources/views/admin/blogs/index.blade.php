@@ -3,7 +3,7 @@
 @section('content')
 <div class="content">
     <a href="{{route('blogs.create')}}" class="btn btn-success" style="background: rgb(28, 184, 65);margin-bottom: 12px;margin-top: 12px;text-decoration:none">Insert</a>
-    <a href="{{URL::to('blog')}}" class="btn btn-primary" target="_blank">View</a>
+    <a href="{{route('user.blog')}}" class="btn btn-primary" target="_blank">View</a>
 
     <div class="pure-g">
         <div class="pure-u-1">
@@ -53,13 +53,13 @@
 </div>
 @endsection
 @push('css')
-<link rel="stylesheet" href="{{asset('css/app-light.css')}}">
-<link rel="stylesheet" href="{{asset('css/dataTables.bootstrap4.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/app-light.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/dataTables.bootstrap4.css')}}">
 @endpush
 @push('script')
-<script src="{{asset('js/jquery.min.js')}}"></script>
-<script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.dataTables.min.js')}}"></script>
+<script src="{{secure_asset('js/dataTables.bootstrap4.min.js')}}"></script>
 <script type="text/javascript">
     $('#table').DataTable({
         autoWidth: true,

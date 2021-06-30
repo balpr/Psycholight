@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
     <title>Blog &ndash; Layout Examples &ndash; Pure</title>
-    <link rel="stylesheet" href="{{asset('css/pure/pure-min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/pure/pure-min.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/pure/grids-responsive-min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/layouts/blog/styles.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/pure/grids-responsive-min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/layouts/blog/styles.css')}}">
 </head>
 <body>
 
