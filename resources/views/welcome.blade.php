@@ -17,7 +17,7 @@
         <a class="pure-menu-heading" href="" style="font-family: Rubik">Psycholight</a>
 
         <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="{{URL::to('blog')}}" class="pure-menu-link">Blog</a></li>
+            <li class="pure-menu-item"><a href="{{route('user.blog')}}" class="pure-menu-link">Blog</a></li>
             <li class="pure-menu-item"><a href="#support" class="pure-menu-link">Support</a></li>
         </ul>
     </div>
@@ -32,7 +32,7 @@
                     Get Better Mental Health.
                 </p>
                 <p>
-                    <a href="{{URL::to('blog')}}" class="pure-button" style="background: #333333">Get Started</a>
+                    <a href="{{route('user.blog')}}" class="pure-button" style="background: #333333">Get Started</a>
                 </p>
             </div>
 
