@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psycholight</title>
-    <link rel="stylesheet" href="{{secure_asset('css/pure/pure-min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('css/pure/grids-responsive-min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pure/pure-min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pure/grids-responsive-min.css')}}">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{secure_asset('css/layouts/marketing/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/layouts/marketing/styles.css')}}">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
             </div>
 
             <div class="pure-u-12-24" style="margin-top: -120px">
-                <img src="{{secure_asset('images/hero-img.png')}}">
+                <img src="{{asset('images/hero-img.png')}}">
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
 
     <div class="pt l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img width="400" alt="File Icons" class="pure-img-responsive" src="{{secure_asset('images/content-img-1.png')}}">
+            <img width="400" alt="File Icons" class="pure-img-responsive" src="{{asset('images/content-img-1.png')}}">
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
@@ -62,7 +62,7 @@
 
     <div class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img width="300" alt="File Icons" class="pure-img-responsive" src="{{secure_asset('images/content-img-2.png')}}">
+            <img width="300" alt="File Icons" class="pure-img-responsive" src="{{asset('images/content-img-2.png')}}">
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 

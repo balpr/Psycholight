@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
     <title>Admin Psycholight | @yield('title')</title>
-    <link rel="stylesheet" href="{{secure_asset('css/pure/pure-min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('css/layouts/side-menu/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pure/pure-min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/layouts/side-menu/styles.css')}}">
     <style>
         body {
             margin: 0;
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <script src="{{secure_asset('js/ui.js')}}"></script>
+    <script src="{{asset('js/ui.js')}}"></script>
     @stack('script')
 
 </body>

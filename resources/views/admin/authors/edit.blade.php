@@ -52,5 +52,5 @@
 </div> <!-- .container-fluid -->
 @endsection
 @push('css')
-<link rel="stylesheet" href="{{secure_asset('css/app-light.css')}}">
+<link rel="stylesheet" href="{{asset('css/app-light.css')}}">
 @endpush
