@@ -29,7 +29,7 @@
                 </ul>
             </nav>
 
-            <a href="{{URL::to('/')}}" class="button pure-button pure-button-primary" style="margin-top: 12px;text-decoration: none">Return to landing page</a>
+            <a href="{{route('user.index')}}" class="button pure-button pure-button-primary" style="margin-top: 12px;text-decoration: none">Return to landing page</a>
         </div>
     </div>
 
